@@ -10,7 +10,7 @@ data with minimal RPC calls.
 Please see .example.env file and recreate a .env in the same format.
 
 > [!NOTE]
-> The project will not run properly without a valid Infura API key and seed phrase in .env file. Seed phrase wallet can be random, it does NOT need a balance.
+> The project **will not run** properly without a valid Infura API key and seed phrase in .env file. Seed phrase wallet can be random, it does **NOT** need a balance.
 
 ```shell
 yarn
@@ -20,26 +20,26 @@ npx hardhat test
 
 ## Contracts
 
-1. ArbUtils Library: manages decoding of exchange data.
+1. **ArbUtils Library**: manages decoding of exchange data.
    [Deployment](https://polygonscan.com/address/0xd91ffe16fdf90b81831d95e811c366c76d869894)
 
-2. DecimalUtils Library: manages token decimal calculations and normalizing exchange rates.
+2. **DecimalUtils Library**: manages token decimal calculations and normalizing exchange rates.
    [Deployment](https://polygonscan.com/address/0x66251624649E0DaC7E1BF53A98cDDafed896e8b8)
 
-3. SlippageUtils Library: manages calculation of slippage.
+3. **SlippageUtils Library**: manages calculation of slippage.
    [Deployment](https://polygonscan.com/address/0xedafdb092A50cE56488ad679fDe35396dE7cEEa2)
 
-4. QuickswapV3Utils Library: manages interactions with QuickswapV3 contracts.
+4. **QuickswapV3Utils Library**: manages interactions with QuickswapV3 contracts.
    [Deployment](https://polygonscan.com/address/0x0648ba3f5aa306AFf7BF9aCA812492B2954a2521)
 
-5. UniswapV2Utils Library: manages interactions with UniswapV2 contracts.
+5. **UniswapV2Utils Library**: manages interactions with UniswapV2 contracts.
    [Deployment](https://polygonscan.com/address/0x77103683893aAF702053AD1cD4A3E355FbD6E871)
 
-6. UniswapV3Utils Library: manages interactions with UniswapV3 contracts.
+6. **UniswapV3Utils Library**: manages interactions with UniswapV3 contracts.
    [Deployment](https://polygonscan.com/address/0x8183a36Cd907C6c0302B14FcD53432786D300B35)
 
-7. ArbitrageScanner: contract that we interact with.
-   [Scanner: Deployment](https://polygonscan.com/address/0xBB77739791647458E181262E11B3Db6Ab5a63647)
+7. **ArbitrageScanner**: contract that we interact with.
+   [Deployment](https://polygonscan.com/address/0xBB77739791647458E181262E11B3Db6Ab5a63647)
 
 ## How to Use
 
