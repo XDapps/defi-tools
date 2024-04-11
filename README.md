@@ -2,8 +2,7 @@
 
 This project demonstrates how to use Hardhat and Solidity to create and
 deploy an arbitrage scanner to scrape data from multiple decentralized
-exchanges in a single RPC call allowing you to scrape and store large amounts of
-data allowing for arbitrage route analysis with minimal RPC calls.
+exchanges in a single RPC call. This gives you the ability to scrape and store large amounts of data allowing for arbitrage route analysis with minimal RPC calls.
 
 ## Installation
 
