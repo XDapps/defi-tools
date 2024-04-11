@@ -20,26 +20,26 @@ npx hardhat test
 
 ## Contracts
 
-1. ArbUtils: this is a library that manages decoding of exchange data.
-   [ArbUtils: Polygon Deployment](https://polygonscan.com/address/0xd91ffe16fdf90b81831d95e811c366c76d869894)
+1. ArbUtils Library: manages decoding of exchange data.
+   [Deployment](https://polygonscan.com/address/0xd91ffe16fdf90b81831d95e811c366c76d869894)
 
-2. DecimalUtils: this is a library that manages token decimal calculations and normalizing exchange rates.
-   [DecimalUtils: Polygon Deployment](https://polygonscan.com/address/0x66251624649E0DaC7E1BF53A98cDDafed896e8b8)
+2. DecimalUtils Library: manages token decimal calculations and normalizing exchange rates.
+   [Deployment](https://polygonscan.com/address/0x66251624649E0DaC7E1BF53A98cDDafed896e8b8)
 
-3. SlippageUtils: this is a library that manages calculation of slippage.
-   [SlippageUtils: Polygon Deployment](https://polygonscan.com/address/0xedafdb092A50cE56488ad679fDe35396dE7cEEa2)
+3. SlippageUtils Library: manages calculation of slippage.
+   [Deployment](https://polygonscan.com/address/0xedafdb092A50cE56488ad679fDe35396dE7cEEa2)
 
-4. QuickswapV3Utils: this is a library that manages interactions with contracts implementing the QuickswapV3 protocol.
-   [QuickswapV3Utils: Polygon Deployment](https://polygonscan.com/address/0x0648ba3f5aa306AFf7BF9aCA812492B2954a2521)
+4. QuickswapV3Utils Library: manages interactions with QuickswapV3 contracts.
+   [Deployment](https://polygonscan.com/address/0x0648ba3f5aa306AFf7BF9aCA812492B2954a2521)
 
-5. UniswapV2Utils: this is a library that manages interactions with contracts implementing the UniswapV2 protocol.
-   [UniswapV2Utils: Polygon Deployment](https://polygonscan.com/address/0x77103683893aAF702053AD1cD4A3E355FbD6E871)
+5. UniswapV2Utils Library: manages interactions with UniswapV2 contracts.
+   [Deployment](https://polygonscan.com/address/0x77103683893aAF702053AD1cD4A3E355FbD6E871)
 
-6. UniswapV3Utils: this is a library that manages interactions with contracts implementing the UniswapV3 protocol.
-   [UniswapV3Utils: Polygon Deployment](https://polygonscan.com/address/0x8183a36Cd907C6c0302B14FcD53432786D300B35)
+6. UniswapV3Utils Library: manages interactions with UniswapV3 contracts.
+   [Deployment](https://polygonscan.com/address/0x8183a36Cd907C6c0302B14FcD53432786D300B35)
 
-7. ArbitrageScanner: this is the main contract that we interact with.
-   [ArbitrageScanner: Polygon Deployment](https://polygonscan.com/address/0xBB77739791647458E181262E11B3Db6Ab5a63647)
+7. ArbitrageScanner: contract that we interact with.
+   [Scanner: Deployment](https://polygonscan.com/address/0xBB77739791647458E181262E11B3Db6Ab5a63647)
 
 ## How to Use
 
