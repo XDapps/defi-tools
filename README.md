@@ -2,8 +2,8 @@
 
 This project demonstrates how to use Hardhat and Solidity to create and
 deploy an arbitrage scanner to scrape data from multiple decentralized
-exchanges in a single RPC call allowing you to scrape massive amounts of
-data with minimal RPC calls.
+exchanges in a single RPC call allowing you to scrape and store large amounts of
+data allowing for arbitrage route analysis with minimal RPC calls.
 
 ## Installation
 
@@ -76,8 +76,6 @@ Simulate the results of a multi-hop, multi-exchange trade path.
 ```shell
 npx hh run scripts/simulate-trade/simulateTrade.ts --network polygon 
 ```
-
-This allows you to store this data in a database and analyze potential arbitrage routes.
 
 ## Exchanges
 
