@@ -52,6 +52,9 @@ Get UniswapV2 pair counts, pair addresses, token addresses
 
 ```shell
 npx hardhat run scripts/scrapers/scrapeV2PairCounts.ts --network polygon
+```
+
+```shell
 
 npx hardhat run scripts/scrapers/scrapeV2PairAddresses.ts --network polygon 
 ```
@@ -60,7 +63,9 @@ Get normalized exchange rate(s) using a base asset and an array of potential pai
 
 ```shell
 npx hh run scripts/exchange-rates/getExchangeRate.ts --network polygon 
+```
 
+```shell
 npx hh run scripts/exchange-rates/getMultipleExchangeRates.ts --network polygon 
 ```
 
